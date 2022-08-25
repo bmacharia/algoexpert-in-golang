@@ -1,6 +1,6 @@
  ## Validate Subsequence
 
-https://leetcode.com/problems/two-sum/ 
+https://www.algoexpert.io/questions/validate-subsequence
 
 Description 
 
