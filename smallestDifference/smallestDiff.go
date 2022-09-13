@@ -18,7 +18,7 @@ func smallesDifference(arrayOne, arrayTwo []int) []int {
 	current := math.MaxInt32
 	// create a slice to store the result
 	smallestPair := []int{}
-	//
+	// use a while loop and iterate through the input arrays
 	for idxOne < len(arrayOne) && idxTwo < len(arrayTwo) {
 		// get the first element from the first array and the second element from the second array
 		firstNum, secondNum := arrayOne[idxOne], arrayTwo[idxTwo]
