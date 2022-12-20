@@ -12,7 +12,7 @@ func threeNumberSum(array []int, target int) [][]int {
 	result := [][]int{}
 	// iterate over the input up until the second to last element
 	for i := 0; i < len(array)-2; i++ {
-		// set a left pointer to the next element t
+		// set a left pointer to the next element 
 		left := i + 1
 		// set a right pointer to the last element
 		right := len(array) - 1
